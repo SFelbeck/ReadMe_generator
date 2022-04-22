@@ -90,7 +90,7 @@ ${data.contributing}
 
 ## Questions: 
 If you have any questions you can reach me at:
-[GitHub](https://www.github.com/${data.github}) or at [email](${data.email}).`
+[GitHub](https://www.github.com/${data.github}) or at [email](mailto:${data.email}).`
 
 // Uses the fs module to generate a md file with the user's input at the title, also checks for errors and console logs if an error or success
         fs.writeFile(`${data.title}.md`, readMe, (err) =>
